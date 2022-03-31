@@ -1,0 +1,134 @@
+body{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    margin-top: 40px;
+    position: relative;
+    left: 400px;
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.container{
+    display: flex;
+}
+.leftmost{
+    margin-top: 30px;
+}
+.rightmost{
+    position: absolute;
+    padding-left: 300px;
+}
+.apple1{
+    position: relative;
+    background-color: yellowgreen;
+    height: 365px;
+    width: 270px;
+    display: block;
+    justify-content: space-between;
+    border: 10px 10px 0px 0px;
+}
+#apple1{
+    width: 100%;
+}
+.apple1>img{
+    margin-top: 40px;
+    position: absolute;
+    left: -10px;
+}
+.subapple{
+    background-color: white;
+    padding: 15px;
+}
+#firstsubapple{
+    border: 0.5px solid grey;
+    border-radius: 2px 2px 2px 2px;
+}
+#secondsubapple{
+    border: 0.5px solid grey;
+    border-radius: 2px 2px 2px 2px;
+}
+#halfapple{
+    border: 0.5px solid grey;
+    border-radius: 2px 2px 2px 2px;
+}
+#flipped{
+    border: 0.5px solid grey;
+    border-radius: 2px 2px 2px 2px;
+}
+.code{
+    font-size: 15px;
+    font-weight: 400;
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    font-size: large;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -490px;
+}
+.rupees{
+    margin-top: 10px;
+    color: rebeccapurple;
+    font-family: monospace;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.rs{
+    
+    font-size: 20px;
+    color: orangered;
+}
+.amount{
+    
+    padding-left: 10px;
+    font-size: 58px;
+    color: orangered;
+}
+.Benefits{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px;
+}
+.Select{
+    margin-top: 10px;
+    padding: 5px;
+    display: inline;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+#orangeapple{
+    border: 0.5px solid grey;
+    border-radius: 5px 5px 5px 5px;
+}
+#yellowapple{
+    border: 0.5px solid grey;
+    border-radius: 5px 5px 5px 5px;
+}
+.benefits2{
+    font-size: 20px;
+    color: gray;
+}
+.benefitsname{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+.button{
+    color: black;
+    background-color: red;
+    padding: 12px 30px 12px 30px;
+    border-radius: 7px;
+}
+.border{
+    border: 2px;
+    border-color: black;
+}
